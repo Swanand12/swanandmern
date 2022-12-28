@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router";
- 
+ import "./component.css";
 export default function Edit() {
  const [form, setForm] = useState({
    name: "",
@@ -66,7 +66,7 @@ export default function Edit() {
 
  // This following section will display the form that takes input from the user to update the data.
  return (
-   <div>
+   <div className="update-details">
      <h3>Update Record</h3>
      <form onSubmit={onSubmit}>
        <div className="form-group">
