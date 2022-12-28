@@ -46,7 +46,7 @@ export default function Create() {
      <h3 className="create-btn">Create New Record</h3>
      <form onSubmit={onSubmit}>
        <div className="form-group">
-         <label htmlFor="name">Name</label>
+         <label htmlFor="name">Name : </label>
          <input
            type="text"
            className="form-control"
@@ -58,7 +58,7 @@ export default function Create() {
          />
        </div>
        <div className="form-group">
-         <label htmlFor="position">Post</label>
+         <label htmlFor="position">Post : </label>
          <input
            type="text"
            className="form-control"
@@ -112,6 +112,7 @@ export default function Create() {
            type="submit"
            value="Create person"
            className="btn btn-primary"
+           style={{color:'black'}}
          />
        </div>
      </form>

@@ -13,7 +13,7 @@ export default function Navbar() {
     <div className="fullnav">
       <nav className="navbar navbar-expand-lg ">
         <NavLink className="navbar-brand" to="/">
-         <p className="logo color-white">Employees Details</p>
+         <p className="logo" style={{fontFamily:'courier' , color:'orange', }}>Employees Details</p>
         </NavLink>
         <button
           className="navbar-toggler"
@@ -30,7 +30,7 @@ export default function Navbar() {
         <div className="collapse navbar-collapse" id="navbar-Supported-Content">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-              <NavLink className="nav-link" to="/create" style={{color: "white"}}>
+              <NavLink className="nav-link" to="/create" style={{color: "black", backgroundColor:'orange'}}>
                 Create Record
               </NavLink>
             </li>

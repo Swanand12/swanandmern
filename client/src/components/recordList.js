@@ -8,8 +8,8 @@ const Record = (props) => (
    <td>{props.record.position}</td>
    <td>{props.record.level}</td>
    <td>
-     <Link className="btn btn-link" to={`/edit/${props.record._id}`}>Edit</Link> |
-     <button className="btn btn-link"
+     <Link className="btn btn-link btn-green"  to={`/edit/${props.record._id}`}>Edit</Link> &nbsp;&nbsp;&nbsp;
+     <button className="btn btn-link" style={{backgroundColor:'red'}}
        onClick={() => {
          props.deleteRecord(props.record._id);
        }}
@@ -69,8 +69,9 @@ export default function RecordList() {
  // This following section will display the table with the records of individuals.
  return (
    <div>
-     <h3>Employees List</h3>
-     <table className="table table-striped" style={{ marginTop: 20 }}>
+     <br />
+     <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Employees List</h3>
+     <table className="table table-striped table1" style={{ marginTop: 20 }}>
        <thead>
          <tr>
            <th>Name</th>
