@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import './component.css'
  
 const Record = (props) => (
  <tr>
@@ -73,7 +74,7 @@ export default function RecordList() {
        <thead>
          <tr>
            <th>Name</th>
-           <th>Position</th>
+           <th>Post</th>
            <th>Level</th>
            <th>Action</th>
          </tr>

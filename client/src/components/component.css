@@ -1,0 +1,64 @@
+/* .navbar navbar-expand-lg navbar-light bg-light{
+    display: flex;
+    justify-content: space-between;
+} */
+/* {
+    /* color: white; */
+    /* width: 100%; */
+ 
+.fullnav{
+    background-color:black;
+    color: white;
+}
+.color-white{
+    color: white;
+}
+.logo{
+    padding-left: 2rem;
+    font-size: 3rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#navbar-Supported-Content{
+    display: flex;
+    justify-content: flex-end;
+    /* align-items: center; */
+    padding-right: 2rem;
+}
+.nav-link{
+    display: flex;
+    align-items: flex-end;
+    background-color: #e50914;
+    border-radius: 0.5rem;
+}
+ul{
+    color: white;
+}
+/* .creat-btn{
+    margin-top: 3rem;
+} */
+.body{height: 80vh;
+    /* background-color: orange; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+}
+form{
+    padding-top: 0.4rem;
+}
+.form-group{
+    padding-bottom: 1rem;
+}
+.submit{
+    /* background-color: #e50914; */
+    display: flex;
+    justify-content: center;
+}
+.btn-primary{
+    background-color: #e50914; 
+    border: none;
+    color: white;
+}
